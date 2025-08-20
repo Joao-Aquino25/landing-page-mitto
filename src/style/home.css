@@ -1,0 +1,52 @@
+#cta {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateY(-50%);
+  z-index: 2;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 3em;
+  color: #fff;
+  text-align: left;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.title span {
+  font-weight: bold;
+  color: orange;
+}
+
+.description {
+  font-size: 1.5em;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.description span {
+  font-weight: bolder;
+  color: orange;
+}
+
+
+#cta_buttons {
+  display: flex;
+  position: absolute;
+  gap: 16px;
+  top: 75%;
+  left: 55%;
+  transform: translateY(-50%);
+  z-index: 2;
+  max-width: 400px;
+}
+
+#cta_buttons .btn-default {
+  text-decoration: none;
+}
+
+#cta_buttons .btn-default i {
+  padding: 8px;
+}
