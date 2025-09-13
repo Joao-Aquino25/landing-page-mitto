@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .btn-default {
@@ -34,4 +34,25 @@ body {
   background-color: #ffa500;
   color: white;
 
+}
+
+.btn-sec {
+  height: 100vh;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffa500;
+  padding: 12px 24px;
+  font-weight: 900;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 16px;
+}
+
+.btn-secondary:hover {
+  background-color: #ffa500;
+  color: white;
 }
